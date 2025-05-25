@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <form id="registrationForm">
+                <h2>Qeydiyyatdan keç</h2>
+
+                <div class="form-control">
+                    <label for="name">Ad</label>
+                    <input type="text" id="name" placeholder="Adınızı daxil edin">
+                    <small>Xəta mesajı</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email daxil edin">
+                    <small>Xəta mesajı</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Şifrə</label>
+                    <input type="password" id="password" placeholder="Şifrə daxil edin">
+                    <small>Xəta mesajı</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="confirmPassword">Şifrəni təsdiqlə</label>
+                    <input type="password" id="confirmPassword" placeholder="Təkrar şifrə">
+                    <small>Xəta mesajı</small>
+                </div>
+
+                <button type="submit" id="submitBtn" disabled>Qeydiyyatdan Keç</button>
+                <a href="./SignIn.html">SignIn</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
