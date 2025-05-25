@@ -14,4 +14,7 @@ loginBtn.addEventListener("click", function (e) {
     } else {
         alert(`Xoş gəldiniz, ${name}!`);
     }
+
+    nameInput2.value = "";
+    passwordInput2.value = "";
 });
